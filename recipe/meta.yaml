@@ -1,5 +1,5 @@
 {% set name = "jupyterlab_genv" %}
-{% set version = "0.1.2" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jupyterlab_genv-{{ version }}.tar.gz
-  sha256: 05481d7579442690c5cd65bdcfb42cbc25627bd62b9dcb01df54e52d945943d6
+  sha256: b05613722056130759f1181d7cf6dbd6aa77a3e31c9343919fec2dbc2b4d8b77
 
 build:
   noarch: python
