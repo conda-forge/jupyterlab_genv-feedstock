@@ -1,5 +1,5 @@
 {% set name = "jupyterlab_genv" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jupyterlab_genv-{{ version }}.tar.gz
-  sha256: b05613722056130759f1181d7cf6dbd6aa77a3e31c9343919fec2dbc2b4d8b77
+  sha256: 59c47b4efa5baa2584f96633a033c959a61a6d835a8f4363901030b1b0b6f9a1
 
 build:
   noarch: python
@@ -24,6 +24,7 @@ requirements:
   run:
     - python >=3.7
     - jupyter_server <2,>=1.6
+    - genv
 
 test:
   imports:
