@@ -1,11 +1,11 @@
-About jupyterlab_genv
-=====================
+About jupyterlab_genv-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jupyterlab_genv-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/jupyterlab-genv/
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jupyterlab_genv-feedstock/blob/main/LICENSE.txt)
 
 Summary: A JupyterLab extension for managing GPU environments using genv.
 
