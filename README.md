@@ -143,9 +143,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@noa-neria](https://github.com/noa-neria/)
 * [@omer-dayan](https://github.com/omer-dayan/)
 * [@razrotenberg](https://github.com/razrotenberg/)
-
-
-<!-- dummy commit to enable rerendering -->
 
