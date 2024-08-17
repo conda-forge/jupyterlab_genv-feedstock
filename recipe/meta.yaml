@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -23,7 +23,7 @@ requirements:
     - hatch-jupyter-builder >=0.5
   run:
     - python >=3.7
-    - jupyter_server <2,>=1.6
+    - jupyter_server <3,>=1.6
     - genv
 
 test:
